@@ -1,0 +1,1093 @@
+{
+  "expand": "schema,names",
+  "startAt": 1,
+  "maxResults": 5,
+  "total": 53,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10071",
+      "self": "https://brinkworth.atlassian.net/rest/api/3/issue/10071",
+      "key": "CBP-52",
+      "fields": {
+        "statuscategorychangedate": "2021-05-24T20:04:53.702-0300",
+        "issuetype": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "For system outages or incidents. Created by Jira Service Management.",
+          "iconUrl": "https://brinkworth.atlassian.net/secure/viewavatar?size=medium&avatarId=10551&avatarType=issuetype",
+          "name": "[System] Incident",
+          "subtask": false,
+          "avatarId": 10551,
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": { "languageCode": "en", "displayName": "inglés" },
+        "project": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CBP",
+          "name": "Prioridades Basadas en Capital",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://brinkworth.atlassian.net/secure/projectavatar?pid=10000&avatarId=10424",
+            "24x24": "https://brinkworth.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10424",
+            "16x16": "https://brinkworth.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10424",
+            "32x32": "https://brinkworth.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10424"
+          }
+        },
+        "customfield_10031": null,
+        "customfield_10032": null,
+        "customfield_10033": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "customfield_10035": null,
+        "resolution": null,
+        "customfield_10036": null,
+        "customfield_10037": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-52/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2021-05-24T20:04:53.281-0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "El enlace principal solo está disponible para los usuarios de Jira Premium."
+          }
+        },
+        "customfield_10019": "0|i000fr:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-05-24T20:04:53.281-0300",
+        "status": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/status/1",
+          "description": "La incidencia está abierta y lista para que el responsable empiece a trabajar en ella.",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/statuses/open.png",
+          "name": "Abierta",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://brinkworth.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        },
+        "components": [],
+        "customfield_10050": {
+          "id": "8",
+          "name": "Time to review normal change",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10071/sla/8"
+          },
+          "completedCycles": []
+        },
+        "timeoriginalestimate": null,
+        "customfield_10051": {
+          "id": "4",
+          "name": "Time to resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10071/sla/4"
+          },
+          "completedCycles": []
+        },
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This is a description for issue number 49",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10049": {
+          "id": "7",
+          "name": "Time to close after resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10071/sla/7"
+          },
+          "completedCycles": []
+        },
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Issue number 49",
+        "creator": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "customfield_10040": null,
+        "customfield_10041": null,
+        "customfield_10042": null,
+        "reporter": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "customfield_10043": null,
+        "aggregateprogress": { "progress": 0, "total": 0 },
+        "customfield_10000": "{}",
+        "customfield_10044": null,
+        "customfield_10045": null,
+        "customfield_10001": null,
+        "customfield_10046": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10047": null,
+        "customfield_10004": null,
+        "customfield_10048": {
+          "id": "6",
+          "name": "Time to first response",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10071/sla/6"
+          },
+          "completedCycles": []
+        },
+        "customfield_10038": null,
+        "customfield_10039": null,
+        "environment": null,
+        "duedate": null,
+        "progress": { "progress": 0, "total": 0 },
+        "votes": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-52/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10070",
+      "self": "https://brinkworth.atlassian.net/rest/api/3/issue/10070",
+      "key": "CBP-51",
+      "fields": {
+        "statuscategorychangedate": "2021-05-24T20:04:53.241-0300",
+        "issuetype": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "For system outages or incidents. Created by Jira Service Management.",
+          "iconUrl": "https://brinkworth.atlassian.net/secure/viewavatar?size=medium&avatarId=10551&avatarType=issuetype",
+          "name": "[System] Incident",
+          "subtask": false,
+          "avatarId": 10551,
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": { "languageCode": "en", "displayName": "inglés" },
+        "customfield_10031": null,
+        "project": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CBP",
+          "name": "Prioridades Basadas en Capital",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://brinkworth.atlassian.net/secure/projectavatar?pid=10000&avatarId=10424",
+            "24x24": "https://brinkworth.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10424",
+            "16x16": "https://brinkworth.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10424",
+            "32x32": "https://brinkworth.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10424"
+          }
+        },
+        "customfield_10032": null,
+        "fixVersions": [],
+        "customfield_10033": null,
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10037": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-51/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2021-05-24T20:04:52.939-0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": [],
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "El enlace principal solo está disponible para los usuarios de Jira Premium."
+          }
+        },
+        "customfield_10019": "0|i000fj:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-05-24T20:04:52.939-0300",
+        "status": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/status/1",
+          "description": "La incidencia está abierta y lista para que el responsable empiece a trabajar en ella.",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/statuses/open.png",
+          "name": "Abierta",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://brinkworth.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        },
+        "components": [],
+        "customfield_10050": {
+          "id": "8",
+          "name": "Time to review normal change",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10070/sla/8"
+          },
+          "completedCycles": []
+        },
+        "customfield_10051": {
+          "id": "4",
+          "name": "Time to resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10070/sla/4"
+          },
+          "completedCycles": []
+        },
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This is a description for issue number 48",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10049": {
+          "id": "7",
+          "name": "Time to close after resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10070/sla/7"
+          },
+          "completedCycles": []
+        },
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Issue number 48",
+        "creator": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "customfield_10040": null,
+        "customfield_10041": null,
+        "customfield_10042": null,
+        "reporter": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "customfield_10043": null,
+        "customfield_10044": null,
+        "aggregateprogress": { "progress": 0, "total": 0 },
+        "customfield_10000": "{}",
+        "customfield_10045": null,
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10046": null,
+        "customfield_10047": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "customfield_10048": {
+          "id": "6",
+          "name": "Time to first response",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10070/sla/6"
+          },
+          "completedCycles": []
+        },
+        "customfield_10038": null,
+        "customfield_10039": null,
+        "environment": null,
+        "duedate": null,
+        "progress": { "progress": 0, "total": 0 },
+        "votes": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-51/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10069",
+      "self": "https://brinkworth.atlassian.net/rest/api/3/issue/10069",
+      "key": "CBP-50",
+      "fields": {
+        "statuscategorychangedate": "2021-05-24T20:04:52.900-0300",
+        "issuetype": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "For system outages or incidents. Created by Jira Service Management.",
+          "iconUrl": "https://brinkworth.atlassian.net/secure/viewavatar?size=medium&avatarId=10551&avatarType=issuetype",
+          "name": "[System] Incident",
+          "subtask": false,
+          "avatarId": 10551,
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": { "languageCode": "en", "displayName": "inglés" },
+        "project": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CBP",
+          "name": "Prioridades Basadas en Capital",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://brinkworth.atlassian.net/secure/projectavatar?pid=10000&avatarId=10424",
+            "24x24": "https://brinkworth.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10424",
+            "16x16": "https://brinkworth.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10424",
+            "32x32": "https://brinkworth.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10424"
+          }
+        },
+        "customfield_10031": null,
+        "customfield_10032": null,
+        "fixVersions": [],
+        "customfield_10033": null,
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10037": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-50/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2021-05-24T20:04:52.641-0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": [],
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "El enlace principal solo está disponible para los usuarios de Jira Premium."
+          }
+        },
+        "customfield_10019": "0|i000fb:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-05-24T20:04:52.641-0300",
+        "status": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/status/1",
+          "description": "La incidencia está abierta y lista para que el responsable empiece a trabajar en ella.",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/statuses/open.png",
+          "name": "Abierta",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://brinkworth.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        },
+        "components": [],
+        "customfield_10050": {
+          "id": "8",
+          "name": "Time to review normal change",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10069/sla/8"
+          },
+          "completedCycles": []
+        },
+        "timeoriginalestimate": null,
+        "customfield_10051": {
+          "id": "4",
+          "name": "Time to resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10069/sla/4"
+          },
+          "completedCycles": []
+        },
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This is a description for issue number 47",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10049": {
+          "id": "7",
+          "name": "Time to close after resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10069/sla/7"
+          },
+          "completedCycles": []
+        },
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "Issue number 47",
+        "creator": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "customfield_10040": null,
+        "customfield_10041": null,
+        "customfield_10042": null,
+        "reporter": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "customfield_10043": null,
+        "customfield_10044": null,
+        "customfield_10000": "{}",
+        "aggregateprogress": { "progress": 0, "total": 0 },
+        "customfield_10045": null,
+        "customfield_10001": null,
+        "customfield_10046": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10047": null,
+        "customfield_10004": null,
+        "customfield_10048": {
+          "id": "6",
+          "name": "Time to first response",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10069/sla/6"
+          },
+          "completedCycles": []
+        },
+        "customfield_10038": null,
+        "customfield_10039": null,
+        "environment": null,
+        "duedate": null,
+        "progress": { "progress": 0, "total": 0 },
+        "votes": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-50/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10068",
+      "self": "https://brinkworth.atlassian.net/rest/api/3/issue/10068",
+      "key": "CBP-49",
+      "fields": {
+        "statuscategorychangedate": "2021-05-24T20:04:52.601-0300",
+        "issuetype": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "For system outages or incidents. Created by Jira Service Management.",
+          "iconUrl": "https://brinkworth.atlassian.net/secure/viewavatar?size=medium&avatarId=10551&avatarType=issuetype",
+          "name": "[System] Incident",
+          "subtask": false,
+          "avatarId": 10551,
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": { "languageCode": "en", "displayName": "inglés" },
+        "project": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CBP",
+          "name": "Prioridades Basadas en Capital",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://brinkworth.atlassian.net/secure/projectavatar?pid=10000&avatarId=10424",
+            "24x24": "https://brinkworth.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10424",
+            "16x16": "https://brinkworth.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10424",
+            "32x32": "https://brinkworth.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10424"
+          }
+        },
+        "customfield_10031": null,
+        "customfield_10032": null,
+        "fixVersions": [],
+        "customfield_10033": null,
+        "aggregatetimespent": null,
+        "customfield_10034": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10037": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-49/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2021-05-24T20:04:52.300-0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "El enlace principal solo está disponible para los usuarios de Jira Premium."
+          }
+        },
+        "customfield_10019": "0|i000f3:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-05-24T20:04:52.300-0300",
+        "status": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/status/1",
+          "description": "La incidencia está abierta y lista para que el responsable empiece a trabajar en ella.",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/statuses/open.png",
+          "name": "Abierta",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://brinkworth.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        },
+        "components": [],
+        "customfield_10050": {
+          "id": "8",
+          "name": "Time to review normal change",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10068/sla/8"
+          },
+          "completedCycles": []
+        },
+        "timeoriginalestimate": null,
+        "customfield_10051": {
+          "id": "4",
+          "name": "Time to resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10068/sla/4"
+          },
+          "completedCycles": []
+        },
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This is a description for issue number 46",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10049": {
+          "id": "7",
+          "name": "Time to close after resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10068/sla/7"
+          },
+          "completedCycles": []
+        },
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Issue number 46",
+        "creator": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "customfield_10040": null,
+        "customfield_10041": null,
+        "customfield_10042": null,
+        "reporter": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "customfield_10043": null,
+        "aggregateprogress": { "progress": 0, "total": 0 },
+        "customfield_10000": "{}",
+        "customfield_10044": null,
+        "customfield_10045": null,
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10046": null,
+        "customfield_10047": null,
+        "customfield_10003": null,
+        "customfield_10048": {
+          "id": "6",
+          "name": "Time to first response",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10068/sla/6"
+          },
+          "completedCycles": []
+        },
+        "customfield_10004": null,
+        "customfield_10038": null,
+        "customfield_10039": null,
+        "environment": null,
+        "duedate": null,
+        "progress": { "progress": 0, "total": 0 },
+        "votes": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-49/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10067",
+      "self": "https://brinkworth.atlassian.net/rest/api/3/issue/10067",
+      "key": "CBP-48",
+      "fields": {
+        "statuscategorychangedate": "2021-05-24T20:04:52.261-0300",
+        "issuetype": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issuetype/10001",
+          "id": "10001",
+          "description": "For system outages or incidents. Created by Jira Service Management.",
+          "iconUrl": "https://brinkworth.atlassian.net/secure/viewavatar?size=medium&avatarId=10551&avatarType=issuetype",
+          "name": "[System] Incident",
+          "subtask": false,
+          "avatarId": 10551,
+          "hierarchyLevel": 0
+        },
+        "timespent": null,
+        "customfield_10030": { "languageCode": "en", "displayName": "inglés" },
+        "customfield_10031": null,
+        "project": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "CBP",
+          "name": "Prioridades Basadas en Capital",
+          "projectTypeKey": "service_desk",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://brinkworth.atlassian.net/secure/projectavatar?pid=10000&avatarId=10424",
+            "24x24": "https://brinkworth.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10424",
+            "16x16": "https://brinkworth.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10424",
+            "32x32": "https://brinkworth.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10424"
+          }
+        },
+        "customfield_10032": null,
+        "customfield_10033": null,
+        "fixVersions": [],
+        "customfield_10034": null,
+        "aggregatetimespent": null,
+        "customfield_10035": null,
+        "resolution": null,
+        "customfield_10036": null,
+        "customfield_10037": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-48/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2021-05-24T20:04:51.918-0300",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "customfield_10026": [],
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "El enlace principal solo está disponible para los usuarios de Jira Premium."
+          }
+        },
+        "customfield_10019": "0|i000ev:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-05-24T20:04:51.918-0300",
+        "status": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/status/1",
+          "description": "La incidencia está abierta y lista para que el responsable empiece a trabajar en ella.",
+          "iconUrl": "https://brinkworth.atlassian.net/images/icons/statuses/open.png",
+          "name": "Abierta",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://brinkworth.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "Por hacer"
+          }
+        },
+        "components": [],
+        "customfield_10050": {
+          "id": "8",
+          "name": "Time to review normal change",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10067/sla/8"
+          },
+          "completedCycles": []
+        },
+        "timeoriginalestimate": null,
+        "customfield_10051": {
+          "id": "4",
+          "name": "Time to resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10067/sla/4"
+          },
+          "completedCycles": []
+        },
+        "description": {
+          "type": "doc",
+          "version": 1,
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "text": "This is a description for issue number 45",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10049": {
+          "id": "7",
+          "name": "Time to close after resolution",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10067/sla/7"
+          },
+          "completedCycles": []
+        },
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "Issue number 45",
+        "creator": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "customfield_10040": null,
+        "customfield_10041": null,
+        "customfield_10042": null,
+        "customfield_10043": null,
+        "reporter": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/user?accountId=557058%3Ad1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "accountId": "557058:d1a1d382-63db-47a5-ae58-e1f403eb0eb0",
+          "emailAddress": "federico.brinkworth@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "24x24": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "16x16": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png",
+            "32x32": "https://secure.gravatar.com/avatar/7d8406f5aa7552f62ef1df6448b0b3a2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFB-2.png"
+          },
+          "displayName": "Federico Brinkworth",
+          "active": true,
+          "timeZone": "America/Cordoba",
+          "accountType": "atlassian"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": { "progress": 0, "total": 0 },
+        "customfield_10044": null,
+        "customfield_10001": null,
+        "customfield_10045": null,
+        "customfield_10046": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10047": null,
+        "customfield_10048": {
+          "id": "6",
+          "name": "Time to first response",
+          "_links": {
+            "self": "https://brinkworth.atlassian.net/rest/servicedeskapi/request/10067/sla/6"
+          },
+          "completedCycles": []
+        },
+        "customfield_10004": null,
+        "customfield_10038": null,
+        "customfield_10039": null,
+        "environment": null,
+        "duedate": null,
+        "progress": { "progress": 0, "total": 0 },
+        "votes": {
+          "self": "https://brinkworth.atlassian.net/rest/api/3/issue/CBP-48/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    }
+  ]
+}
