@@ -18,12 +18,7 @@ const walletConnect = async (callback, showError) => {
       console.log("Get the contract instance.");
       // Get the contract instance.
       const networkId = await web3State.web3.eth.net.getId();
-      //const deployedNetwork = SimpleStorageContract.networks[networkId];
       const deployedNetwork = JiraIssueTokenContract.networks[networkId];
-      // const instance = new web3.eth.Contract(
-      //   SimpleStorageContract.abi,
-      //   deployedNetwork && deployedNetwork.address,
-      // );
       web3State.contract = new web3State.web3.eth.Contract(
         JiraIssueTokenContract.abi,
         deployedNetwork && deployedNetwork.address,
@@ -43,13 +38,13 @@ const walletConnect = async (callback, showError) => {
   
   const mintJIT = async (value, showSuccess, showError) => {
     await web3State.contract.methods.mintJIT().send({from: web3State.accounts[0], value: value})
-    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash);})
+    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash, res.transactionHash);})
     .catch(err => {console.log(err); showError(err.message);}) 
   };
   
   const recoverETH = async (value, showSuccess, showError) => {
     await web3State.contract.methods.recoverETH(value).send({from: web3State.accounts[0]})
-    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash);})
+    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash, res.transactionHash);})
     .catch(err => {console.log(err); showError(err.message);}) 
   };
 
@@ -57,13 +52,13 @@ const walletConnect = async (callback, showError) => {
 
   const depositJIT = async (account, value, showSuccess, showError, refreshView) => {
     await web3State.contract.methods.deposit(account, value).send({from: web3State.accounts[0]})
-    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash); refreshView();})
+    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash, res.transactionHash); refreshView();})
     .catch(err => {console.log(err); showError(err.message);}) 
   };
 
   const withdrawJIT = async (account, value, showSuccess, showError, refreshView) => {
     await web3State.contract.methods.withdraw(account, value).send({from: web3State.accounts[0]})
-    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash); refreshView();})
+    .then(res => {console.log('Success!', res); showSuccess(res.transactionHash, res.transactionHash); refreshView();})
     .catch(err => {console.log(err); showError(err.message);}) 
   };
 

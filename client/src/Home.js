@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import { web3State, walletConnect, mintJIT, recoverETH } from "./ContractUtils";
 import ShowMessage from "./Messages";
 import SetAmount from "./SetAmount";
+import ContractAddress from "./ContractAddress"
 
 /// Material UI ///
 import Button from '@material-ui/core/Button';
@@ -104,7 +105,16 @@ const Home = (error) => {
   
     return (
       <div className="App">
-        <h1>Welcome to Jira Balance Priority</h1>
+        <h1>Bienvenido a Jira Balance Priority</h1>
+        <h2>
+          Trabajo de certificación del curso de<br/>
+          Programación de contratos inteligentes con solidity de<br/>
+          <a target="_blank" rel="noreferrer" href="https://www.blockchainacademy.cl/">Blockchain Academy Chile</a>
+        </h2>
+        <span>
+          <br/>
+          Para el uso de esta aplicación es necesario conectar Metamask
+        </span>
         <div>
           <Button
             variant="contained"
@@ -119,6 +129,13 @@ const Home = (error) => {
           </Button>
         </div>
         <div>
+          <ContractAddress show={connected} />
+        </div>
+        <span>
+          <br/>
+          Para obtener JIT debe enviar ETH, recibirá (1 JIT = 1 USD)
+        </span>
+        <div>
           <Button
             variant="contained"
             color="primary"
@@ -131,6 +148,10 @@ const Home = (error) => {
             Mint JIT
           </Button>
         </div>
+        <span>
+          <br/>
+          Para recuperar ETH debe enviar JIT, formula: ETH=BalanceETHContrato*JIT/TotalJITEmitidos. Los JIT entregados se queman.
+        </span>
         <div>
           <Button
             variant="contained"
@@ -144,6 +165,10 @@ const Home = (error) => {
             Recover ETH
           </Button>
         </div>
+        <span>
+          <br/>
+          Teniendo un balance de JIT aquí podrá depositarlos en los Issues de Jira que desee promover
+        </span>
         <div>
           <Button
             variant="contained"

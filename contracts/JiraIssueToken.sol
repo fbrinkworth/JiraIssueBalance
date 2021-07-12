@@ -2,15 +2,15 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-
+import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
 contract JiraIssueToken is ERC20 {
-    // AggregatorV3Interface internal priceFeed;
+    AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Kovan
+     * Network: Rinkeby
      * Aggregator: ETH/USD
-     * Address: 0x9326BFA02ADD2366b30bacB125260Af641031331
+     * Address: 0x8A753747A1Fa494EC906cE90E9f37563A8AF630e
      */
     constructor() ERC20("JiraIssueToken", "JIT") {
         /**
@@ -20,6 +20,7 @@ contract JiraIssueToken is ERC20 {
          * Para Rinkeby
          * priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);
          */
+        priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);
     }
 
     /**
@@ -28,6 +29,7 @@ contract JiraIssueToken is ERC20 {
     function mintJIT() public payable {
         /*
          * Descomentar cuando incluya chainlink
+         */
         uint8 decimals = priceFeed.decimals();
         require(decimals > 0, "Price decimals must greater than zero.");
         (
@@ -37,9 +39,11 @@ contract JiraIssueToken is ERC20 {
             uint timeStamp,
             uint80 answeredInRound
         ) = priceFeed.latestRoundData();
-        */
+        /*
+         * Para test sin chainlink
         uint8 decimals = 8;
         int price = 239248000000;
+        */
 
         // acuñará una cantidad de JIT equivalentes al precio en dólares de los eth enviados
         // hago la operación en dos partes para evitar el overflow
