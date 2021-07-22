@@ -5,9 +5,13 @@ const Balance = (props) => {
     const [value, setValue] = useState(0);
 
     useEffect(() => {
-        JITBalance(props.account)
-        .then(res => setValue(res/10**18))
-        .catch(err => setValue(0));
+        if(props.account) {
+            JITBalance(props.account)
+            .then(res => setValue(res/10**18))
+            .catch(err => setValue(0));    
+        } else {
+            setValue(0);
+        }
     });
 
     return (
