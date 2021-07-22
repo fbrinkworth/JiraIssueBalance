@@ -52,7 +52,7 @@ const JiraIssuesBalance = () => {
     const [openDeposit, setOpenDeposit] = useState(false);
     const [openWithdraw, setOpenWithdraw] = useState(false);
     const [currentAccount, setCurrentAccount] = useState("");
-    const serverUrl = window.location.protocol + "//" + window.location.host.replace(":3000", "") + ":8080/";
+    const serverUrl = window.location.protocol + "//" + window.location.hostname + ":8080/";
   
     if (web3State.accounts == null) {
       history.push("/error/1");
