@@ -113,7 +113,8 @@ const Home = (error) => {
         </h2>
         <span>
           <br/>
-          Para el uso de esta aplicación es necesario conectar Metamask
+          Para el uso de esta aplicación es necesario conectar Metamask sobre la tesnet Rinkeby<br/>
+          {window.location.protocol + "//" + window.location.host.replace(":3000", "") + ":8080/"}
         </span>
         <div>
           <Button

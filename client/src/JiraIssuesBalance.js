@@ -52,6 +52,7 @@ const JiraIssuesBalance = () => {
     const [openDeposit, setOpenDeposit] = useState(false);
     const [openWithdraw, setOpenWithdraw] = useState(false);
     const [currentAccount, setCurrentAccount] = useState("");
+    const serverUrl = window.location.protocol + "//" + window.location.host.replace(":3000", "") + ":8080/";
   
     if (web3State.accounts == null) {
       history.push("/error/1");
@@ -170,7 +171,7 @@ const JiraIssuesBalance = () => {
           ]}
           data={query =>
             new Promise((resolve, reject) => {
-              let url = "http://localhost:8080/https://brinkworth.atlassian.net/rest/api/3/search?";
+              let url = serverUrl + "https://brinkworth.atlassian.net/rest/api/3/search?";
               url += "jql=project = CBP order by key";
               url += "&startAt=" + (query.page * query.pageSize);
               url += "&maxResults=" + query.pageSize;
@@ -235,7 +236,7 @@ const JiraIssuesBalance = () => {
   
                 event.target.disabled = true;
   
-                fetch("http://localhost:8080/https://brinkworth.atlassian.net/rest/api/3/issue/" + rowData.key, jiraUpdateOptions)
+                fetch(serverUrl + "https://brinkworth.atlassian.net/rest/api/3/issue/" + rowData.key, jiraUpdateOptions)
                 .then(() => {tableRef.current.onQueryChange(); messages.current.showSuccess("Wallet created");})
                 .catch(error => {messages.current.showError(error);});              
                 //alert("You create wallet " + account.address + " for " + rowData.key);
