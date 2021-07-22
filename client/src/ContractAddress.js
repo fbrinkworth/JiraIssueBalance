@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
 const ContractAddress = (props) => {
     const classes = useStyles();
 
-    const handleClick = () => {
-      navigator.clipboard.writeText(web3State.contract._address);
+    const handleClick = (address) => {
+      navigator.clipboard.writeText(address);
     };
 
     if(props.show) {
@@ -27,7 +27,7 @@ const ContractAddress = (props) => {
         <div className={classes.root}>
             <br/>
             <span>Debe agregar el token JIT a Metamask, click para copiar la dirección del contrato al portapapeles</span>
-            <Chip avatar={<Avatar>C</Avatar>} label={web3State.contract._address} clickable color="primary" onClick={handleClick} />            
+            <Chip avatar={<Avatar>C</Avatar>} label={web3State.contract._address} clickable color="primary" onClick={handleClick.bind(null, web3State.contract._address)} />            
         </div>
       );
     } else {
