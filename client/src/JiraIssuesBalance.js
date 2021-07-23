@@ -14,6 +14,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 
+const API_KEY = process.env.REACT_APP_JIRA_API_KEY;
+
 const useStyles = makeStyles((theme) => ({
     button: {
       margin: theme.spacing(1),
@@ -31,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   }));
   
 /// JIRA Stuff begin ///
-var jiraToken = Buffer.from('federico.brinkworth@gmail.com:XvEC7c5jayKiKKf1Y2FeAC60').toString('base64');
+var jiraToken = Buffer.from('federico.brinkworth@gmail.com:' + API_KEY).toString('base64');
 var myHeaders = new Headers();
 myHeaders.append("Accept", "application/json");
 myHeaders.append("Content-Type", "application/json");
