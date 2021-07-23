@@ -25,16 +25,18 @@ const ContractAddress = (props) => {
     };
     */
 
+    const handleClick = (address) => window.open("https://rinkeby.etherscan.io/address/" + address, "_blank");
+
     if(props.show) {
       return (
         <div className={classes.root}>
             <br/>
             {/*
               <span>Debe agregar el token JIT a Metamask, click para copiar la dirección del contrato al portapapeles</span>
-              <Chip avatar={<Avatar>C</Avatar>} label={web3State.contract._address} clickable color="primary" onClick={handleClick.bind(null, web3State.contract._address)} />             
+              <Chip avatar={<Avatar>C</Avatar>} label={web3State.contract._address} clickable color="primary" onClick={handleClick.bind(null, web3State.contract._address)} />
             */}
             <span>Debe agregar el token JIT a Metamask mediante la dirección del contrato</span>
-            <Chip avatar={<Avatar>C</Avatar>} label={web3State.contract._address} color="primary" />
+            <Chip avatar={<Avatar>C</Avatar>} label={web3State.contract._address} clickable color="primary" onClick={handleClick.bind(null, web3State.contract._address)} />            
         </div>
       );
     } else {
